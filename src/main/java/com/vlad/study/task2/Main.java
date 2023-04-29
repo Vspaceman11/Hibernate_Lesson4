@@ -25,5 +25,7 @@ public class Main {
 
         System.out.println("Delete using method getAnimalById(): ");
         ah.removeAnimal(ah.getAnimalById(1));
+
+        ah.closeEntityManagerFactory();
     }
 }
